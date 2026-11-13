@@ -131,21 +131,6 @@ Interesting details:
 
 </details>
 
-## A bug I found along the way
-
-My first run had a handful of errors around **900**, where normal errors are about 0.01. I traced them to FAST's official `fit()` function, which builds a new vocabulary from your own data.
-
-FAST stores each number as a text character, and some characters are made of two bytes. If your training data never happens to produce one of those bytes, it's missing from the vocabulary. Then, when new data needs it, the byte is **silently dropped**, and the number decodes as garbage with no error raised. On my 160 held-out chunks, this corrupted up to 6 of them, depending on the setting. The released FAST+ tokenizer isn't affected, because it was trained on far more data.
-
-The fix is one line: always include all 256 possible bytes in the vocabulary. It's in [`src/codecs.py`](src/codecs.py), with a test that reproduces the bug. To be transparent: I'd already seen the first (buggy) test results before fixing this. The fix didn't change which settings were chosen, and the old outputs are kept in [`results/first_run_bug/`](results/first_run_bug/).
-
-## What this doesn't show
-
-- **Whether robots actually perform better.** I only measured how well recorded motion survives compression; I didn't train a robot policy. That's the natural next experiment.
-- **Real grasps.** An "event" here is a fast *commanded* gripper move, not a measured contact with the cube.
-- **Broad generality.** These are two simulated tasks on one robot, with 10 test demonstrations each.
-- **A new method.** Giving some channels more precision is a known engineering trick. What's new here is the careful measurement.
-
 ## Run it yourself
 
 ```bash
