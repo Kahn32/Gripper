@@ -1,0 +1,98 @@
+{
+  "normalization": {
+    "train": {
+      "frac_out_of_range": 0.017023809523809524,
+      "per_channel": [
+        0.0147,
+        0.012,
+        0.0188,
+        0.0141,
+        0.0174,
+        0.0196,
+        0.0164,
+        0.0169,
+        0.0192,
+        0.02,
+        0.0192,
+        0.0198,
+        0.0181,
+        0.0122
+      ],
+      "max_abs": 2.2903226160241035
+    },
+    "val": {
+      "frac_out_of_range": 0.02848214285714286,
+      "per_channel": [
+        0.0217,
+        0.0002,
+        0.019,
+        0.0808,
+        0.016,
+        0.0222,
+        0.0185,
+        0.0785,
+        0.0138,
+        0.0535,
+        0.0185,
+        0.0075,
+        0.0148,
+        0.0338
+      ],
+      "max_abs": 1.7096773839758965
+    },
+    "test": {
+      "frac_out_of_range": 0.03410714285714286,
+      "per_channel": [
+        0.177,
+        0.0,
+        0.0295,
+        0.053,
+        0.105,
+        0.0088,
+        0.0253,
+        0.018,
+        0.0138,
+        0.0175,
+        0.0,
+        0.0298,
+        0.0,
+        0.0
+      ],
+      "max_abs": 2.5483870765576553
+    }
+  },
+  "events": {
+    "train": {
+      "n_events": 147,
+      "event_bearing_episodes": 30,
+      "n_episodes": 30,
+      "frac_frames_in_E": 0.13133333333333333,
+      "frac_out_of_range_inside_E": 0.021370736900345536
+    },
+    "val": {
+      "n_events": 48,
+      "event_bearing_episodes": 10,
+      "n_episodes": 10,
+      "frac_frames_in_E": 0.13225,
+      "frac_out_of_range_inside_E": 0.029736884326719764
+    },
+    "test": {
+      "n_events": 48,
+      "event_bearing_episodes": 10,
+      "n_episodes": 10,
+      "frac_frames_in_E": 0.13624999999999998,
+      "frac_out_of_range_inside_E": 0.04244170490559544
+    }
+  },
+  "chunking": {
+    "T": 400,
+    "chunks_per_episode": {
+      "0": 8,
+      "10": 7,
+      "20": 7,
+      "30": 7,
+      "40": 7
+    },
+    "common_frames": 320
+  }
+}

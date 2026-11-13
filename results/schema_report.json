@@ -1,0 +1,33 @@
+{
+  "n_episodes": 50,
+  "n_frames": 20000,
+  "fps": 50,
+  "action_dim": 14,
+  "action_names": [
+    "left_waist",
+    "left_shoulder",
+    "left_elbow",
+    "left_forearm_roll",
+    "left_wrist_angle",
+    "left_wrist_rotate",
+    "left_gripper",
+    "right_waist",
+    "right_shoulder",
+    "right_elbow",
+    "right_forearm_roll",
+    "right_wrist_angle",
+    "right_wrist_rotate",
+    "right_gripper"
+  ],
+  "gripper_idx": [
+    6,
+    13
+  ],
+  "episode_lengths": [
+    400
+  ],
+  "timestamp_dt_range": [
+    0.019999980926513672,
+    0.020000457763671875
+  ]
+}

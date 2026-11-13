@@ -1,0 +1,11 @@
+{
+  "weighted": "local_g5_l2_v2048",
+  "control": "local_g5_l1_v2048",
+  "rate_matched": true,
+  "val_rate_gap": 0.01752541184717841,
+  "val_arm_increase": -0.03137532024559252,
+  "val_event_reduction": 0.37331924631504715,
+  "meets_10pct_target": true,
+  "vocab_size": 2048,
+  "selection_rule": "Written before any validation result was seen. Pair every weighted config (lambda>1) with every local control (lambda=1) whose mean validation token rate is within 5%. A pair is eligible if the weighted arm MAE is at most 5% above the control's. Choose the eligible pair with the largest relative event-MAE reduction. If no pair is eligible, choose the weighted config with the lowest validation event MAE, pair it with the control of nearest token rate, and mark the comparison as NOT rate-matched. Practical target (reported, not required): >=10% event-MAE reduction."
+}

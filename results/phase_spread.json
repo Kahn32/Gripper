@@ -1,0 +1,60 @@
+{
+  "control": {
+    "event_mae_spread": 0.002767191214567276,
+    "event_mae_rel_spread": 0.1449387585825285,
+    "best_offset": 20,
+    "worst_offset": 0
+  },
+  "released_fast+": {
+    "event_mae_spread": 0.0008996996454899535,
+    "event_mae_rel_spread": 0.07378347918903778,
+    "best_offset": 0,
+    "worst_offset": 30
+  },
+  "weighted": {
+    "event_mae_spread": 0.0008996996454899535,
+    "event_mae_rel_spread": 0.07378347918903778,
+    "best_offset": 0,
+    "worst_offset": 30
+  },
+  "weighted_vs_control_offset0": {
+    "mean_diff": -0.008689626005005625,
+    "ci_lo": -0.010207360843450605,
+    "ci_hi": -0.007151238516411841,
+    "rel_diff": -0.42508744802640486,
+    "n_episodes": 10,
+    "n_better": 10
+  },
+  "weighted_vs_control_offset10": {
+    "mean_diff": -0.006728440693802319,
+    "ci_lo": -0.007414550632856031,
+    "ci_hi": -0.006033228911721631,
+    "rel_diff": -0.3557570024332207,
+    "n_episodes": 10,
+    "n_better": 10
+  },
+  "weighted_vs_control_offset20": {
+    "mean_diff": -0.005473738828807967,
+    "ci_lo": -0.006596491711371169,
+    "ci_hi": -0.004399344427683182,
+    "rel_diff": -0.3096920227986579,
+    "n_episodes": 10,
+    "n_better": 10
+  },
+  "weighted_vs_control_offset30": {
+    "mean_diff": -0.007469843461830074,
+    "ci_lo": -0.00902429968900773,
+    "ci_hi": -0.0058471807658865595,
+    "rel_diff": -0.37122971736463534,
+    "n_episodes": 10,
+    "n_better": 10
+  },
+  "weighted_vs_control_offset40": {
+    "mean_diff": -0.006130147000552699,
+    "ci_lo": -0.0074660967372651285,
+    "ci_hi": -0.0047473224416786424,
+    "rel_diff": -0.33481536839919973,
+    "n_episodes": 10,
+    "n_better": 10
+  }
+}

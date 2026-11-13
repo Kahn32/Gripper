@@ -1,0 +1,202 @@
+{
+  "dataset": "lerobot/aloha_sim_insertion_human",
+  "revision": "cc571a3c661df81b566dbfde3d5c1e85fcdf7884",
+  "split": {
+    "seed": 0,
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      10,
+      11,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      30,
+      34,
+      35,
+      36,
+      37,
+      38,
+      43,
+      45,
+      46,
+      47
+    ],
+    "val": [
+      9,
+      12,
+      13,
+      17,
+      25,
+      32,
+      40,
+      42,
+      44,
+      48
+    ],
+    "test": [
+      5,
+      7,
+      14,
+      15,
+      29,
+      31,
+      33,
+      39,
+      41,
+      49
+    ]
+  },
+  "episode_length": [
+    500
+  ],
+  "summary": {
+    "transfer": {
+      "control": {
+        "tokens_per_s": 38.39,
+        "event_mae": 0.023676416183675976,
+        "event_p95": 0.06373626944362717,
+        "arm_mae": 0.10581024513694307,
+        "nonevent_grip_mae": 0.015032186412895776,
+        "n_failed_chunks": 0.0
+      },
+      "released": {
+        "tokens_per_s": 49.980000000000004,
+        "event_mae": 0.013826351217782243,
+        "event_p95": 0.03912917183597779,
+        "arm_mae": 0.0255618509593712,
+        "nonevent_grip_mae": 0.005836824505570095,
+        "n_failed_chunks": 0.0
+      },
+      "weighted": {
+        "tokens_per_s": 39.510000000000005,
+        "event_mae": 0.022946375364046555,
+        "event_p95": 0.09746601224788586,
+        "arm_mae": 0.06189911377807744,
+        "nonevent_grip_mae": 0.0869892072379969,
+        "n_failed_chunks": 0.0
+      }
+    },
+    "within_task": {
+      "control": {
+        "tokens_per_s": 29.169999999999998,
+        "event_mae": 0.022115595267311654,
+        "event_p95": 0.06346265441149426,
+        "arm_mae": 0.012365260932393667,
+        "nonevent_grip_mae": 0.010522395284738322,
+        "n_failed_chunks": 0.0
+      },
+      "released": {
+        "tokens_per_s": 37.43,
+        "event_mae": 0.013743283059737007,
+        "event_p95": 0.03719467152912365,
+        "arm_mae": 0.007233087187143465,
+        "nonevent_grip_mae": 0.005763867508802586,
+        "n_failed_chunks": 0.0
+      },
+      "weighted": {
+        "tokens_per_s": 30.01,
+        "event_mae": 0.013743283059737007,
+        "event_p95": 0.03719467152912365,
+        "arm_mae": 0.012365260932393667,
+        "nonevent_grip_mae": 0.005763867508802586,
+        "n_failed_chunks": 0.0
+      }
+    }
+  },
+  "weighted_vs_control": {
+    "transfer": {
+      "event_mae": {
+        "mean_diff": -0.0007300408196294185,
+        "ci_lo": -0.006344062418991701,
+        "ci_hi": 0.004908603572686375,
+        "rel_diff": -0.030834093047103734,
+        "n_episodes": 10,
+        "n_better": 5
+      },
+      "event_p95": {
+        "mean_diff": 0.033729742804258694,
+        "ci_lo": -0.002565353940475751,
+        "ci_hi": 0.07109450243875101,
+        "rel_diff": 0.5292079862642672,
+        "n_episodes": 10,
+        "n_better": 5
+      },
+      "arm_mae": {
+        "mean_diff": -0.04391113135886562,
+        "ci_lo": -0.053721274064719014,
+        "ci_hi": -0.034011394141644946,
+        "rel_diff": -0.4149988623694653,
+        "n_episodes": 10,
+        "n_better": 10
+      },
+      "tokens_per_s": {
+        "mean_diff": 1.1199999999999997,
+        "ci_lo": 0.7497499999999994,
+        "ci_hi": 1.4799999999999998,
+        "rel_diff": 0.029174264131284308,
+        "n_episodes": 10,
+        "n_better": 0
+      }
+    },
+    "within_task": {
+      "event_mae": {
+        "mean_diff": -0.008372312207574648,
+        "ci_lo": -0.010630809612556824,
+        "ci_hi": -0.005914778857126705,
+        "rel_diff": -0.3785705112785045,
+        "n_episodes": 10,
+        "n_better": 10
+      },
+      "event_p95": {
+        "mean_diff": -0.0262679828823706,
+        "ci_lo": -0.03244363467318775,
+        "ci_hi": -0.018896017361414566,
+        "rel_diff": -0.41391245175545294,
+        "n_episodes": 10,
+        "n_better": 10
+      },
+      "arm_mae": {
+        "mean_diff": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "rel_diff": 0.0,
+        "n_episodes": 10,
+        "n_better": 0
+      },
+      "tokens_per_s": {
+        "mean_diff": 0.840000000000001,
+        "ci_lo": 0.5000000000000003,
+        "ci_hi": 1.140000000000001,
+        "rel_diff": 0.02879670894754897,
+        "n_episodes": 10,
+        "n_better": 1
+      }
+    }
+  },
+  "event_stats": {
+    "transfer": {
+      "events_per_test_episode": 2.6,
+      "frac_frames_in_E": 0.0514,
+      "frac_out_of_range_test": 0.4452285714285714
+    },
+    "within_task": {
+      "events_per_test_episode": 3.4,
+      "frac_frames_in_E": 0.06659999999999999,
+      "frac_out_of_range_test": 0.0092
+    }
+  }
+}

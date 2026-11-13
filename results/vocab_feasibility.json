@@ -1,0 +1,68 @@
+{
+  "preferred_vocab": [
+    {
+      "gamma": 5,
+      "lambda": 1,
+      "vocab": 1024,
+      "feasible": true,
+      "message": ""
+    },
+    {
+      "gamma": 5,
+      "lambda": 2,
+      "vocab": 1024,
+      "feasible": true,
+      "message": ""
+    },
+    {
+      "gamma": 5,
+      "lambda": 4,
+      "vocab": 1024,
+      "feasible": true,
+      "message": ""
+    },
+    {
+      "gamma": 10,
+      "lambda": 1,
+      "vocab": 1024,
+      "feasible": true,
+      "message": ""
+    },
+    {
+      "gamma": 10,
+      "lambda": 2,
+      "vocab": 1024,
+      "feasible": true,
+      "message": ""
+    },
+    {
+      "gamma": 10,
+      "lambda": 4,
+      "vocab": 1024,
+      "feasible": true,
+      "message": ""
+    },
+    {
+      "gamma": 20,
+      "lambda": 1,
+      "vocab": 1024,
+      "feasible": true,
+      "message": ""
+    },
+    {
+      "gamma": 20,
+      "lambda": 2,
+      "vocab": 1024,
+      "feasible": true,
+      "message": ""
+    },
+    {
+      "gamma": 20,
+      "lambda": 4,
+      "vocab": 1024,
+      "feasible": false,
+      "message": "Vocab size 1024 is too small for the range of tokens 1161"
+    }
+  ],
+  "decision": "1024 rejected for at least one config -> all local configs use shared vocab 2048 (same as released FAST+)"
+}

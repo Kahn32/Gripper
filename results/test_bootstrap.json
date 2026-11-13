@@ -1,0 +1,310 @@
+{
+  "weighted_vs_control": {
+    "event_mae": {
+      "mean_diff": -0.00877488132192011,
+      "ci_lo": -0.010396601264924981,
+      "ci_hi": -0.00717383831219962,
+      "rel_diff": -0.4266451731805183,
+      "n_episodes": 10,
+      "n_better": 10
+    },
+    "event_p95": {
+      "mean_diff": -0.026511874304253596,
+      "ci_lo": -0.03131159125724543,
+      "ci_hi": -0.021176098258905207,
+      "rel_diff": -0.4252329349799869,
+      "n_episodes": 10,
+      "n_better": 10
+    },
+    "event_diff_err": {
+      "mean_diff": -0.0027712539978513185,
+      "ci_lo": -0.003941942133257536,
+      "ci_hi": -0.0017842867896099063,
+      "rel_diff": -0.20480853035539334,
+      "n_episodes": 10,
+      "n_better": 10
+    },
+    "arm_mae": {
+      "mean_diff": -0.0023832347987100687,
+      "ci_lo": -0.0071497043961302065,
+      "ci_hi": 0.0,
+      "rel_diff": -0.1327769082006773,
+      "n_episodes": 10,
+      "n_better": 1
+    },
+    "tokens_per_s": {
+      "mean_diff": 1.275,
+      "ci_lo": 0.6625,
+      "ci_hi": 1.9253124999999984,
+      "rel_diff": 0.03482417207237981,
+      "n_episodes": 10,
+      "n_better": 1
+    }
+  },
+  "weighted_vs_released": {
+    "event_mae": {
+      "mean_diff": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "rel_diff": 0.0,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "event_p95": {
+      "mean_diff": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "rel_diff": 0.0,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "event_diff_err": {
+      "mean_diff": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "rel_diff": 0.0,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "arm_mae": {
+      "mean_diff": 0.006676209043331817,
+      "ci_lo": 0.005691386847657355,
+      "ci_hi": 0.008434057494703771,
+      "rel_diff": 0.751003095616168,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "tokens_per_s": {
+      "mean_diff": -11.9375,
+      "ci_lo": -13.3503125,
+      "ci_hi": -10.824687500000001,
+      "rel_diff": -0.2395885599598595,
+      "n_episodes": 10,
+      "n_better": 10
+    }
+  },
+  "control_vs_released": {
+    "event_mae": {
+      "mean_diff": 0.00877488132192011,
+      "ci_lo": 0.007173838312199619,
+      "ci_hi": 0.01039660126492498,
+      "rel_diff": 0.7441206618024091,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "event_p95": {
+      "mean_diff": 0.026511874304253596,
+      "ci_lo": 0.021176098258905204,
+      "ci_hi": 0.03131159125724543,
+      "rel_diff": 0.7398352495461452,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "event_diff_err": {
+      "mean_diff": 0.0027712539978513185,
+      "ci_lo": 0.0017842867896099056,
+      "ci_hi": 0.003941942133257535,
+      "rel_diff": 0.2575587618500586,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "arm_mae": {
+      "mean_diff": 0.009059443842041884,
+      "ci_lo": 0.005691386847657355,
+      "ci_hi": 0.01558376189083398,
+      "rel_diff": 1.0190918717156967,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "tokens_per_s": {
+      "mean_diff": -13.2125,
+      "ci_lo": -14.7878125,
+      "ci_hi": -11.8375,
+      "rel_diff": -0.26517812343201214,
+      "n_episodes": 10,
+      "n_better": 10
+    }
+  },
+  "same_gamma_g5_l2_vs_l1": {
+    "event_mae": {
+      "mean_diff": -0.00877488132192011,
+      "ci_lo": -0.010396601264924981,
+      "ci_hi": -0.00717383831219962,
+      "rel_diff": -0.4266451731805183,
+      "n_episodes": 10,
+      "n_better": 10
+    },
+    "arm_mae": {
+      "mean_diff": -0.0023832347987100687,
+      "ci_lo": -0.0071497043961302065,
+      "ci_hi": 0.0,
+      "rel_diff": -0.1327769082006773,
+      "n_episodes": 10,
+      "n_better": 1
+    },
+    "tokens_per_s": {
+      "mean_diff": 1.275,
+      "ci_lo": 0.6625,
+      "ci_hi": 1.9253124999999984,
+      "rel_diff": 0.03482417207237981,
+      "n_episodes": 10,
+      "n_better": 1
+    }
+  },
+  "same_gamma_g5_l4_vs_l1": {
+    "event_mae": {
+      "mean_diff": -0.013256120740900509,
+      "ci_lo": -0.01529111398814562,
+      "ci_hi": -0.011255325195003526,
+      "rel_diff": -0.6445283670190761,
+      "n_episodes": 10,
+      "n_better": 10
+    },
+    "arm_mae": {
+      "mean_diff": -0.0031559326398774455,
+      "ci_lo": -0.009467797919632337,
+      "ci_hi": 0.0,
+      "rel_diff": -0.17582614127627427,
+      "n_episodes": 10,
+      "n_better": 1
+    },
+    "tokens_per_s": {
+      "mean_diff": 3.35,
+      "ci_lo": 2.6625,
+      "ci_hi": 4.062812499999998,
+      "rel_diff": 0.09149880505291913,
+      "n_episodes": 10,
+      "n_better": 0
+    }
+  },
+  "same_gamma_g10_l2_vs_l1": {
+    "event_mae": {
+      "mean_diff": -0.004481239418980401,
+      "ci_lo": -0.005641488724869774,
+      "ci_hi": -0.0034275791967193327,
+      "rel_diff": -0.380014580233328,
+      "n_episodes": 10,
+      "n_better": 10
+    },
+    "arm_mae": {
+      "mean_diff": -0.002386485386504599,
+      "ci_lo": -0.007159456159513797,
+      "ci_hi": 0.0,
+      "rel_diff": -0.1977080387364523,
+      "n_episodes": 10,
+      "n_better": 1
+    },
+    "tokens_per_s": {
+      "mean_diff": -9.05,
+      "ci_lo": -10.200312499999999,
+      "ci_hi": -8.0875,
+      "rel_diff": -0.14915533580552118,
+      "n_episodes": 10,
+      "n_better": 10
+    }
+  },
+  "same_gamma_g10_l4_vs_l1": {
+    "event_mae": {
+      "mean_diff": -0.007353209486870881,
+      "ci_lo": -0.008565362707041757,
+      "ci_hi": -0.006364314352712736,
+      "rel_diff": -0.6235611524538327,
+      "n_episodes": 10,
+      "n_better": 10
+    },
+    "arm_mae": {
+      "mean_diff": -0.0031810330497648947,
+      "ci_lo": -0.009543099149294684,
+      "ci_hi": 0.0,
+      "rel_diff": -0.2635322256659629,
+      "n_episodes": 10,
+      "n_better": 1
+    },
+    "tokens_per_s": {
+      "mean_diff": -4.9625,
+      "ci_lo": -5.7875,
+      "ci_hi": -4.075,
+      "rel_diff": -0.08178821590440871,
+      "n_episodes": 10,
+      "n_better": 10
+    }
+  },
+  "same_gamma_g20_l2_vs_l1": {
+    "event_mae": {
+      "mean_diff": -0.0028719700678904786,
+      "ci_lo": -0.003691565189037166,
+      "ci_hi": -0.002031055041332944,
+      "rel_diff": -0.3928262898701103,
+      "n_episodes": 10,
+      "n_better": 10
+    },
+    "arm_mae": {
+      "mean_diff": -0.002408582473416678,
+      "ci_lo": -0.007225747420250034,
+      "ci_hi": 0.0,
+      "rel_diff": -0.27805899850961907,
+      "n_episodes": 10,
+      "n_better": 1
+    },
+    "tokens_per_s": {
+      "mean_diff": -32.275,
+      "ci_lo": -35.9878125,
+      "ci_hi": -29.075,
+      "rel_diff": -0.3094068304373877,
+      "n_episodes": 10,
+      "n_better": 10
+    }
+  },
+  "same_gamma_g20_l4_vs_l1": {
+    "event_mae": {
+      "mean_diff": -0.0052058443513913226,
+      "ci_lo": -0.005958327743326114,
+      "ci_hi": -0.004445517218663301,
+      "rel_diff": -0.7120521711079019,
+      "n_episodes": 10,
+      "n_better": 10
+    },
+    "arm_mae": {
+      "mean_diff": -0.0031957380591761788,
+      "ci_lo": -0.009587214177528535,
+      "ci_hi": 0.0,
+      "rel_diff": -0.36893223879233816,
+      "n_episodes": 10,
+      "n_better": 1
+    },
+    "tokens_per_s": {
+      "mean_diff": -24.975,
+      "ci_lo": -28.5503125,
+      "ci_hi": -21.9375,
+      "rel_diff": -0.23942480527261828,
+      "n_episodes": 10,
+      "n_better": 10
+    }
+  },
+  "H1_event_vs_nonevent": {
+    "released_fast+": {
+      "mean_diff": 0.004037701732808887,
+      "ci_lo": 0.0033940328665002383,
+      "ci_hi": 0.004682317406072719,
+      "rel_diff": 0.5206859879854494,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "local_g5_l1_v2048": {
+      "mean_diff": 0.007601288784456485,
+      "ci_lo": 0.005891792420707964,
+      "ci_hi": 0.009394636157865578,
+      "rel_diff": 0.5862534194269658,
+      "n_episodes": 10,
+      "n_better": 0
+    },
+    "local_g5_l2_v2048": {
+      "mean_diff": 0.004037701732808887,
+      "ci_lo": 0.0033940328665002383,
+      "ci_hi": 0.004682317406072719,
+      "rel_diff": 0.5206859879854494,
+      "n_episodes": 10,
+      "n_better": 0
+    }
+  }
+}

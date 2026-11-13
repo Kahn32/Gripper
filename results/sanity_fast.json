@@ -1,0 +1,21 @@
+{
+  "fast_revision": "ec4d7aa71691cac0b8bed6942be45684db2110f4",
+  "scale": 10,
+  "vocab_size": 2048,
+  "smooth": {
+    "n_tokens": 81,
+    "mae_all": 0.012482635774646705,
+    "mae_arm": 0.01223002688141808,
+    "mae_grip": 0.013998289134018462,
+    "max_err": 0.0755046406021121,
+    "all_zero_decode": false
+  },
+  "gripper_ramp": {
+    "n_tokens": 100,
+    "mae_all": 0.013164618213873849,
+    "mae_arm": 0.01223002688141808,
+    "mae_grip": 0.018772166208608464,
+    "max_err": 0.0755046406021121,
+    "all_zero_decode": false
+  }
+}

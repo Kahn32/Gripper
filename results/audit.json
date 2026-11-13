@@ -1,0 +1,219 @@
+{
+  "decode_failures_test": {
+    "local_g10_l1_v2048": 0,
+    "local_g10_l2_v2048": 0,
+    "local_g10_l4_v2048": 0,
+    "local_g20_l1_v2048": 0,
+    "local_g20_l2_v2048": 0,
+    "local_g20_l4_v2048": 0,
+    "local_g5_l1_v2048": 0,
+    "local_g5_l2_v2048": 0,
+    "local_g5_l4_v2048": 0,
+    "released_fast+": 0
+  },
+  "codec_stats": {
+    "released_fast+": {
+      "clipped_coeffs": 0,
+      "n_coeffs": 509600,
+      "decode_failures": 0,
+      "lossy_bpe": 0
+    },
+    "local_g5_l1_v2048": {
+      "clipped_coeffs": 9,
+      "n_coeffs": 257600,
+      "decode_failures": 0,
+      "lossy_bpe": 0
+    },
+    "local_g5_l2_v2048": {
+      "clipped_coeffs": 6,
+      "n_coeffs": 257600,
+      "decode_failures": 0,
+      "lossy_bpe": 0
+    }
+  },
+  "top10_event_errors": [
+    {
+      "method": "local_g5_l1_v2048",
+      "episode": 41,
+      "frame": 200,
+      "channel": 13,
+      "abs_err": 0.18748562085468656,
+      "z": -0.7176110590640945,
+      "out_of_range": false
+    },
+    {
+      "method": "local_g5_l1_v2048",
+      "episode": 33,
+      "frame": 300,
+      "channel": 6,
+      "abs_err": 0.171780350055299,
+      "z": -0.7898848723584058,
+      "out_of_range": false
+    },
+    {
+      "method": "local_g5_l1_v2048",
+      "episode": 41,
+      "frame": 201,
+      "channel": 13,
+      "abs_err": 0.12007407223681554,
+      "z": -0.7850226076819655,
+      "out_of_range": false
+    },
+    {
+      "method": "local_g5_l1_v2048",
+      "episode": 15,
+      "frame": 299,
+      "channel": 6,
+      "abs_err": 0.11180330906481029,
+      "z": 0.3140611285057673,
+      "out_of_range": false
+    },
+    {
+      "method": "local_g5_l1_v2048",
+      "episode": 49,
+      "frame": 299,
+      "channel": 6,
+      "abs_err": 0.11080849070602555,
+      "z": -0.5191288576187485,
+      "out_of_range": false
+    },
+    {
+      "method": "local_g5_l1_v2048",
+      "episode": 15,
+      "frame": 200,
+      "channel": 6,
+      "abs_err": 0.10773825061698543,
+      "z": -0.22312343310742533,
+      "out_of_range": false
+    },
+    {
+      "method": "local_g5_l1_v2048",
+      "episode": 33,
+      "frame": 301,
+      "channel": 6,
+      "abs_err": 0.10754641240363982,
+      "z": -0.854118810010065,
+      "out_of_range": false
+    },
+    {
+      "method": "local_g5_l1_v2048",
+      "episode": 7,
+      "frame": 49,
+      "channel": 13,
+      "abs_err": 0.10510825162402626,
+      "z": -0.493516472791248,
+      "out_of_range": false
+    },
+    {
+      "method": "local_g5_l1_v2048",
+      "episode": 33,
+      "frame": 49,
+      "channel": 13,
+      "abs_err": 0.10398594163341729,
+      "z": 0.5995250092629694,
+      "out_of_range": false
+    },
+    {
+      "method": "released_fast+",
+      "episode": 33,
+      "frame": 50,
+      "channel": 13,
+      "abs_err": 0.09910082024387834,
+      "z": 0.7211430459325168,
+      "out_of_range": false
+    }
+  ],
+  "event_err_by_out_of_range": {
+    "false": {
+      "local_g5_l1_v2048": 0.020537691701726674,
+      "local_g5_l2_v2048": 0.011704017175148716,
+      "released_fast+": 0.011704017175148716
+    },
+    "true": {
+      "local_g5_l1_v2048": 0.035456490099903336,
+      "local_g5_l2_v2048": 0.011044976733817954,
+      "released_fast+": 0.011044976733817954
+    }
+  },
+  "worst_episode_by_method": {
+    "local_g10_l1_v2048": 15,
+    "local_g10_l2_v2048": 39,
+    "local_g10_l4_v2048": 49,
+    "local_g20_l1_v2048": 39,
+    "local_g20_l2_v2048": 49,
+    "local_g20_l4_v2048": 15,
+    "local_g5_l1_v2048": 15,
+    "local_g5_l2_v2048": 15,
+    "local_g5_l4_v2048": 39,
+    "released_fast+": 15
+  },
+  "official_fit_byte_coverage_bug": {
+    "local_g5_l1_v2048": {
+      "heldout_chunks": 160,
+      "corrupted_or_failed": 1,
+      "missing_byte_symbols": 146
+    },
+    "local_g5_l2_v2048": {
+      "heldout_chunks": 160,
+      "corrupted_or_failed": 6,
+      "missing_byte_symbols": 113
+    },
+    "local_g5_l4_v2048": {
+      "heldout_chunks": 160,
+      "corrupted_or_failed": 0,
+      "missing_byte_symbols": 0
+    },
+    "local_g10_l1_v2048": {
+      "heldout_chunks": 160,
+      "corrupted_or_failed": 4,
+      "missing_byte_symbols": 43
+    },
+    "local_g10_l2_v2048": {
+      "heldout_chunks": 160,
+      "corrupted_or_failed": 0,
+      "missing_byte_symbols": 0
+    },
+    "local_g10_l4_v2048": {
+      "heldout_chunks": 160,
+      "corrupted_or_failed": 0,
+      "missing_byte_symbols": 0
+    },
+    "local_g20_l1_v2048": {
+      "heldout_chunks": 160,
+      "corrupted_or_failed": 0,
+      "missing_byte_symbols": 0
+    },
+    "local_g20_l2_v2048": {
+      "heldout_chunks": 160,
+      "corrupted_or_failed": 0,
+      "missing_byte_symbols": 0
+    },
+    "local_g20_l4_v2048": {
+      "heldout_chunks": 160,
+      "corrupted_or_failed": 0,
+      "missing_byte_symbols": 0
+    }
+  },
+  "timing": {
+    "released_fast+": {
+      "encode_ms_per_chunk": 0.37543750022450695,
+      "decode_ms_per_chunk": 0.09658856288297102,
+      "batch": 32
+    },
+    "local_g5_l1_v2048": {
+      "encode_ms_per_chunk": 0.2506249998077692,
+      "decode_ms_per_chunk": 0.07053906256260234,
+      "batch": 32
+    },
+    "local_g5_l2_v2048": {
+      "encode_ms_per_chunk": 0.24339584342669696,
+      "decode_ms_per_chunk": 0.07158071912272135,
+      "batch": 32
+    }
+  },
+  "timing_hardware": {
+    "machine": "arm64",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "processor": "arm"
+  }
+}
